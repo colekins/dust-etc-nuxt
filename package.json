@@ -1,8 +1,8 @@
 {
-  "name": "dust-etc-vue",
+  "name": "Dust, Etc.",
   "version": "1.0.0",
-  "description": "New site for Dust, Etc.",
-  "author": "colekins",
+  "description": "A record label in Portland, ME.",
+  "author": "Cole Kinsler",
   "private": true,
   "scripts": {
     "dev": "nuxt",
