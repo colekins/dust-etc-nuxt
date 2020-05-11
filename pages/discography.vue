@@ -2,19 +2,10 @@
   <div>
     <Nav />
     <div class="container">
-      <div>
-        <h1 class="title">
-          {{ title }}
-        </h1>
-        <h2 class="subtitle">
-          New site for Dust, Etc.
-        </h2>
-        <div class="links">
-          <a href="/discography" class="button--grey">
-            Discography
-          </a>
-        </div>
-      </div>
+      This will be the discography
+      <a href="/" class="button--grey">
+        Home
+      </a>
     </div>
   </div>
 </template>
@@ -27,7 +18,7 @@ export default {
     Nav
   },
   data() {
-    return { title: 'Dust, Etc.', subtitle: 'a site' }
+    return { title: 'Dust, Etc.' }
   }
 }
 </script>
