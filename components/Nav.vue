@@ -24,6 +24,7 @@
   background: white;
   padding-left: 4em;
   padding-right: 4em;
+  border-bottom: 1px solid rgb(228, 228, 228);
 }
 
 .nav-collapse {
@@ -31,7 +32,7 @@
 }
 
 .nav-link {
-  font-size: 17px;
+  font-size: 19px;
   color: rgb(0, 0, 0, 1) !important;
 }
 .navbar-brand {
