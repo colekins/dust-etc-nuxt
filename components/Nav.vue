@@ -1,12 +1,6 @@
 <template>
   <div>
-    <b-navbar
-      class="navbar"
-      toggleable="sm"
-      fixed="top"
-      type="dark"
-      variant="dark"
-    >
+    <b-navbar class="navbar" toggleable="sm" fixed="top">
       <b-navbar-brand class="mr-auto" to="/">Dust, Etc.</b-navbar-brand>
 
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
@@ -27,7 +21,7 @@
 <style>
 .navbar {
   z-index: 2000;
-  background: rgb(24, 24, 24) !important;
+  background: white;
 }
 
 .nav-collapse {
@@ -36,7 +30,7 @@
 
 .nav-link {
   font-size: 17px;
-  color: rgb(255, 255, 255) !important;
+  color: rgb(0, 0, 0, 1) !important;
 }
 .navbar-brand {
   font-size: 30px;
