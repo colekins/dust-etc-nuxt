@@ -8,11 +8,6 @@
     <div class="container">
       <div>
         <h2 class="subtitle">New site for {{ title }}</h2>
-        <div class="links">
-          <a href="/discography" class="button--grey">
-            Discography
-          </a>
-        </div>
       </div>
     </div>
   </div>
