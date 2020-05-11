@@ -1,8 +1,8 @@
 {
-  "name": "Dust, Etc.",
+  "name": "dust-etc-vue",
   "version": "1.0.0",
   "description": "A record label in Portland, ME.",
-  "author": "Cole Kinsler",
+  "author": "colekins",
   "private": true,
   "scripts": {
     "dev": "nuxt",
