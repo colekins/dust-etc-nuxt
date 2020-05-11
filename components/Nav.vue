@@ -1,7 +1,7 @@
 <template>
   <div>
     <b-navbar class="navbar" toggleable="sm" fixed="top">
-      <b-navbar-brand class="mr-auto" to="/">Dust, Etc.</b-navbar-brand>
+      <b-navbar-brand class="" to="/">Dust, Etc.</b-navbar-brand>
 
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
@@ -22,6 +22,8 @@
 .navbar {
   z-index: 2000;
   background: white;
+  padding-left: 4em;
+  padding-right: 4em;
 }
 
 .nav-collapse {
