@@ -14,16 +14,19 @@ export default {
         content: process.env.npm_package_description || ''
       }
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
-    script: [
+    link: [
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       {
-        src:
-          'https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js'
-      },
+        rel: 'stylesheet',
+        href:
+          'https://fonts.googleapis.com/css?family=Old+Standard+TT:400,400i,700'
+      }
+    ],
+    script: [
       { src: 'https://code.jquery.com/jquery-3.3.1.slim.min.js' },
       {
         src:
-          'https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js'
+          'https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js'
       }
     ]
   },

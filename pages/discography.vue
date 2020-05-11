@@ -1,6 +1,5 @@
 <template>
   <div>
-    <Nav />
     <div class="container">
       This will be the discography
       <a href="/" class="button--grey">
@@ -11,11 +10,9 @@
 </template>
 
 <script>
-import Nav from '~/components/Nav.vue'
-
 export default {
   components: {
-    Nav
+    // Nav
   },
   data() {
     return { title: 'Dust, Etc.' }

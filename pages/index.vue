@@ -1,6 +1,5 @@
 <template>
   <div>
-    <Nav />
     <div class="container">
       <div>
         <h1 class="title">
@@ -20,11 +19,9 @@
 </template>
 
 <script>
-import Nav from '~/components/Nav.vue'
-
 export default {
   components: {
-    Nav
+    //
   },
   data() {
     return { title: 'Dust, Etc.', subtitle: 'a site' }
