@@ -1,13 +1,13 @@
 <template>
   <div>
+    <a href="./summerwinter.html">
+      <div class="jumbotron">
+        <!-- <div class="container-fluid jumbo-title"></div> -->
+      </div>
+    </a>
     <div class="container">
       <div>
-        <h1 class="title">
-          {{ title }}
-        </h1>
-        <h2 class="subtitle">
-          New site for Dust, Etc.
-        </h2>
+        <h2 class="subtitle">New site for {{ title }}</h2>
         <div class="links">
           <a href="/discography" class="button--grey">
             Discography
@@ -31,33 +31,32 @@ export default {
 
 <style>
 .container {
-  margin: 0 auto;
-  min-height: 100vh;
   display: flex;
-  justify-content: center;
   align-items: center;
-  text-align: center;
+  justify-content: center;
+  padding-top: 3em;
+  padding-bottom: 4em;
+}
+
+.jumbotron {
+  height: 548px;
+  background-image: url('https://i.imgur.com/kv0EGF2.jpg');
+  background-position: center;
+  background-size: cover;
+  min-width: 100%;
 }
 
 .title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   display: block;
   font-weight: 300;
   font-size: 100px;
-  color: #35495e;
   letter-spacing: 1px;
 }
 
 .subtitle {
   font-weight: 300;
   font-size: 42px;
-  color: #526488;
   word-spacing: 5px;
   padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
 }
 </style>

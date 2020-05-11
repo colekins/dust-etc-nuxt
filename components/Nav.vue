@@ -1,35 +1,39 @@
 <template>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Dust, Etc.</a>
-    <button
-      class="navbar-toggler"
-      type="button"
-      data-toggle="collapse"
-      data-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent"
-      aria-expanded="false"
-      aria-label="Toggle navigation"
-    >
-      <span class="navbar-toggler-icon"></span>
-    </button>
+  <div>
+    <b-navbar class="navbar" toggleable="sm" fixed="top">
+      <b-navbar-brand class="mr-auto" to="/">Dust, Etc.</b-navbar-brand>
 
-    <div id="navbarSupportedContent" class="collapse navbar-collapse">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Discography</a>
-        </li>
-        <li class="nav-item dropdown"></li>
-      </ul>
-    </div>
-  </nav>
+      <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
+
+      <b-collapse id="nav-collapse" is-nav>
+        <!-- Right aligned nav items -->
+        <b-navbar-nav class="ml-auto">
+          <b-nav-item class="nav-link" to="/about">About</b-nav-item>
+          <b-nav-item class="nav-link" to="/discography"
+            >Discography</b-nav-item
+          >
+        </b-navbar-nav>
+      </b-collapse>
+    </b-navbar>
+  </div>
 </template>
 
 <style>
+.navbar {
+  z-index: 2000;
+  background: white;
+}
+
+.nav-collapse {
+  background: white;
+}
+
+.nav-link {
+  font-size: 17px;
+  color: rgb(0, 0, 0, 1) !important;
+}
 .navbar-brand {
-  margin: auto;
+  font-size: 30px;
 }
 
 @keyframes appear {
