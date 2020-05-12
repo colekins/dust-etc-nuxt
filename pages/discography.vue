@@ -1,9 +1,9 @@
 <template>
-  <div>
-    <div class="container">
+  <b-row>
+    <div class="container discography">
       <h2>This will be the discography</h2>
     </div>
-  </div>
+  </b-row>
 </template>
 
 <script>
@@ -17,4 +17,9 @@ export default {
 }
 </script>
 
-<style></style>
+<style>
+.discography {
+  text-align: center;
+  margin-top: 3.5em;
+}
+</style>

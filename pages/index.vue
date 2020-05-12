@@ -49,11 +49,12 @@ export default {
 }
 
 .jumbotron {
-  height: 548px;
+  height: 430px;
   background-image: url('../assets/dust-banner.jpg');
   background-position: center;
   background-size: cover;
   min-width: 100%;
+  border-radius: 0;
 }
 
 .title {

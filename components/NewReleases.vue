@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="new-releases">
     <div class="section-title">Latest Releases</div>
     <b-row class="album-row">
       <AlbumCover
@@ -34,5 +34,10 @@ export default {
   margin-bottom: 20px;
   margin-left: -15px;
   margin-right: -15px;
+}
+
+.new-releases {
+  position: sticky;
+  top: 80px;
 }
 </style>
