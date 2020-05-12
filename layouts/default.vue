@@ -1,9 +1,7 @@
 <template>
   <div>
     <Nav />
-    <transition name="fade">
-      <nuxt />
-    </transition>
+    <nuxt />
   </div>
 </template>
 
