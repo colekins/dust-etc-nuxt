@@ -22,12 +22,7 @@ export default {
           'https://fonts.googleapis.com/css?family=Old+Standard+TT:400,400i,700'
       }
     ],
-    script: [
-      {
-        //   src:
-        //     // 'https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js'
-      }
-    ]
+    script: [{}]
   },
   /*
    ** Customize the progress-bar color
