@@ -19,7 +19,7 @@ export default {
     //
   },
   data() {
-    return { title: 'Dust, Etc.', subtitle: 'a site', show: false }
+    return { title: 'Dust, Etc.', subtitle: 'a site', show: true }
   }
 }
 </script>
