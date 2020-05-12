@@ -5,10 +5,10 @@
     </n-link>
     <div class="container-fluid content-container" @click="show = !show">
       <b-row>
-        <b-col md>
+        <b-col lg>
           <News />
         </b-col>
-        <b-col md>
+        <b-col lg>
           <NewReleases :albums="newReleases" />
         </b-col>
       </b-row>
