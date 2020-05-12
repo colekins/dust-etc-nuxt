@@ -4,7 +4,7 @@ export default {
    ** Headers of the page
    */
   head: {
-    title: 'Dust, Etc. — A record label in Portland, ME.',
+    title: 'Dust, Etc. — Record label in Portland, ME.',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },

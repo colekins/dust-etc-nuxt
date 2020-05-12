@@ -1,22 +1,31 @@
 <template>
   <div>
-    <a href="./summerwinter.html">
-      <div class="jumbotron">
-        <!-- <div class="container-fluid jumbo-title"></div> -->
-      </div>
+    <a href="/">
+      <div class="jumbotron"></div>
     </a>
-    <div class="container">
-      <div>
-        <h2 v-if="show" class="subtitle">{{ title }}</h2>
-      </div>
+    <div class="container-fluid content-container" @click="show = !show">
+      <b-row>
+        <b-col>
+          <div>
+            <News />
+          </div>
+        </b-col>
+        <b-col>
+          <NewReleases />
+        </b-col>
+      </b-row>
     </div>
   </div>
 </template>
 
 <script>
+import NewReleases from '~/components/NewReleases.vue'
+import News from '~/components/News.vue'
+
 export default {
   components: {
-    //
+    NewReleases,
+    News
   },
   data() {
     return { title: 'Dust, Etc.', subtitle: 'a site', show: true }
@@ -25,12 +34,14 @@ export default {
 </script>
 
 <style>
-.container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding-top: 3em;
+.content-container {
+  padding: 0 4em;
   padding-bottom: 4em;
+}
+
+.section-title {
+  padding-bottom: 10px;
+  font-style: italic;
 }
 
 .jumbotron {
