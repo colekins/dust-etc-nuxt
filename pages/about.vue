@@ -35,6 +35,7 @@ export default {
 
 <style>
 .about {
+  padding-top: 10vh;
   text-align: center;
   font-size: 17px;
 }
