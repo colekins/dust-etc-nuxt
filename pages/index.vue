@@ -1,8 +1,8 @@
 <template>
   <div>
-    <a href="/">
+    <n-link to="/discography">
       <div class="jumbotron"></div>
-    </a>
+    </n-link>
     <div class="container-fluid content-container" @click="show = !show">
       <b-row>
         <b-col>
