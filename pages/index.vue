@@ -7,7 +7,7 @@
     </a>
     <div class="container">
       <div>
-        <h2 class="subtitle">New site for {{ title }}</h2>
+        <h2 v-if="show" class="subtitle">{{ title }}</h2>
       </div>
     </div>
   </div>
@@ -19,7 +19,7 @@ export default {
     //
   },
   data() {
-    return { title: 'Dust, Etc.', subtitle: 'a site' }
+    return { title: 'Dust, Etc.', subtitle: 'a site', show: false }
   }
 }
 </script>
