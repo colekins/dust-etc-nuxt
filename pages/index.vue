@@ -9,7 +9,7 @@
           <News />
         </b-col>
         <b-col md>
-          <NewReleases />
+          <NewReleases :image="albums[0].images.small" />
         </b-col>
       </b-row>
     </div>
@@ -19,6 +19,7 @@
 <script>
 import NewReleases from '~/components/NewReleases.vue'
 import News from '~/components/News.vue'
+import data from '~/data/albums.js'
 
 export default {
   components: {
@@ -26,7 +27,12 @@ export default {
     News
   },
   data() {
-    return { title: 'Dust, Etc.', subtitle: 'a site', show: true }
+    return {
+      title: 'Dust, Etc.',
+      subtitle: 'a site',
+      show: true,
+      albums: data.albums
+    }
   }
 }
 </script>
