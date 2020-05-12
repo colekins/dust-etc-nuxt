@@ -9,7 +9,7 @@
           <News />
         </b-col>
         <b-col md>
-          <NewReleases :image="albums[0].images.small" />
+          <NewReleases :albums="newReleases" />
         </b-col>
       </b-row>
     </div>
@@ -31,7 +31,7 @@ export default {
       title: 'Dust, Etc.',
       subtitle: 'a site',
       show: true,
-      albums: data.albums
+      newReleases: data.albums.slice(0, 5)
     }
   }
 }
