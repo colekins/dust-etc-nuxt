@@ -50,7 +50,7 @@ export default {
 
 .jumbotron {
   height: 548px;
-  background-image: url('https://i.imgur.com/kv0EGF2.jpg');
+  background-image: url('../assets/dust-banner.jpg');
   background-position: center;
   background-size: cover;
   min-width: 100%;
