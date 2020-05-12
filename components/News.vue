@@ -2,7 +2,7 @@
   <div>
     <div class="section-title">News</div>
     <div class="news-item">
-      <h2>Kerem Atalay - <span class="italic bold">Summer Winter</span></h2>
+      <h2>Kerem Atalay - <span class="album-title">Summer Winter</span></h2>
 
       <p class="news">
         Kerem Atalay is a self-taught guitarist who discovered American
@@ -54,5 +54,17 @@
   margin-bottom: 20px;
   margin-left: -15px;
   margin-right: -15px;
+}
+
+.album-title {
+  font-style: italic;
+  font-weight: bold;
+}
+
+blockquote {
+  padding: 10px 20px;
+  margin: 0 0 20px;
+  font-size: 15.5px;
+  border-left: 5px solid #eee;
 }
 </style>

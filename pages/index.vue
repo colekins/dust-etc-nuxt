@@ -5,12 +5,10 @@
     </n-link>
     <div class="container-fluid content-container" @click="show = !show">
       <b-row>
-        <b-col>
-          <div>
-            <News />
-          </div>
+        <b-col md>
+          <News />
         </b-col>
-        <b-col>
+        <b-col md>
           <NewReleases />
         </b-col>
       </b-row>

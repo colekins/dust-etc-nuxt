@@ -19,8 +19,6 @@ export default {
 
 <style>
 html {
-  font-size: 16px;
-  word-spacing: 1px;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   -moz-osx-font-smoothing: grayscale;
@@ -30,7 +28,9 @@ html {
 }
 
 body {
+  font-size: 16px;
   font-family: 'Old Standard TT', serif;
+  line-height: 1.5em;
 }
 
 *,

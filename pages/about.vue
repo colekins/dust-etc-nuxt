@@ -36,6 +36,6 @@ export default {
 <style>
 .about {
   text-align: center;
-  font-size: 18px;
+  font-size: 17px;
 }
 </style>
