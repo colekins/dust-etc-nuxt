@@ -1,5 +1,5 @@
 <template>
-  <b-col>
+  <b-col md="6" xs="6">
     <n-link :to="album.title.replace(/ /g, '')">
       <img
         :src="album.images.small"
@@ -21,4 +21,8 @@ export default {
 }
 </script>
 
-<style></style>
+<style>
+.album-cover {
+  margin-bottom: 20px;
+}
+</style>

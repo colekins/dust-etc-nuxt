@@ -3,14 +3,7 @@
     <div class="section-title">Latest Releases</div>
     <b-row class="album-row">
       <AlbumCover
-        v-for="album in albums.slice(0, 2)"
-        :key="album.title"
-        :album="album"
-      ></AlbumCover>
-    </b-row>
-    <b-row class="album-row">
-      <AlbumCover
-        v-for="album in albums.slice(2, 4)"
+        v-for="album in albums"
         :key="album.title"
         :album="album"
       ></AlbumCover>
@@ -20,6 +13,7 @@
 
 <script>
 import AlbumCover from '~/components/AlbumCover'
+
 export default {
   components: { AlbumCover },
   props: {
@@ -30,14 +24,8 @@ export default {
 </script>
 
 <style>
-.album-row {
-  margin-bottom: 20px;
-  margin-left: -15px;
-  margin-right: -15px;
-}
-
 .new-releases {
   position: sticky;
-  top: 80px;
+  top: 88px;
 }
 </style>

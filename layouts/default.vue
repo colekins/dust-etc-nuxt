@@ -24,13 +24,13 @@ html {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
-  margin-top: 73px;
+  margin-top: 79px;
 }
 
 body {
   font-size: 16px;
   font-family: 'Old Standard TT', serif;
-  line-height: 1.5em;
+  line-height: 1.9em;
 }
 
 *,

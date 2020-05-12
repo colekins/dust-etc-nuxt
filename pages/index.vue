@@ -31,7 +31,7 @@ export default {
       title: 'Dust, Etc.',
       subtitle: 'a site',
       show: true,
-      newReleases: data.albums.slice(0, 5)
+      newReleases: data.albums.slice(0, 4)
     }
   }
 }
@@ -49,7 +49,7 @@ export default {
 }
 
 .jumbotron {
-  height: 430px;
+  height: 470px;
   background-image: url('../assets/dust-banner.jpg');
   background-position: center;
   background-size: cover;

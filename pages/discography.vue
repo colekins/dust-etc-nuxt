@@ -1,18 +1,25 @@
 <template>
-  <b-row>
-    <div class="container discography">
-      <h2>This will be the discography</h2>
-    </div>
-  </b-row>
+  <div class="container discography">
+    <b-row>
+      <AlbumCover
+        v-for="album in albums"
+        :key="album.title"
+        :album="album"
+      ></AlbumCover>
+    </b-row>
+  </div>
 </template>
 
 <script>
+import AlbumCover from '~/components/AlbumCover'
+import data from '~/data/albums.js'
+
 export default {
   components: {
-    // Nav
+    AlbumCover
   },
   data() {
-    return { title: 'Dust, Etc.' }
+    return { albums: data.albums }
   }
 }
 </script>
