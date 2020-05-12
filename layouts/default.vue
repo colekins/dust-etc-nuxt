@@ -24,7 +24,7 @@ html {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
-  margin-top: 76px;
+  margin-top: 73px;
 }
 
 body {

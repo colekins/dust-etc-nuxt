@@ -25,14 +25,11 @@
 <style>
 .navbar {
   z-index: 2000;
-  background: white;
+  background: rgba(255, 255, 255, 0.948);
   padding-left: 4em;
   padding-right: 4em;
   border-bottom: 1px solid rgb(228, 228, 228);
-}
-
-.nav-collapse {
-  background: white;
+  min-height: 73px;
 }
 
 .nav-link {
@@ -42,6 +39,7 @@
 .nav-link-brand {
   font-size: 30px;
   color: rgb(0, 0, 0, 1) !important;
+  padding: 8px;
 }
 
 .nav-link-brand:hover {
