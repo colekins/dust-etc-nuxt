@@ -25,10 +25,10 @@
 <style>
 .navbar {
   z-index: 2000;
-  background: rgba(255, 255, 255, 0.92);
+  background: rgba(255, 255, 255, 0.79);
   padding-left: 2em;
   padding-right: 2em;
-  border-bottom: 1px solid rgb(228, 228, 228);
+  border-bottom: 0.6px solid rgba(219, 219, 219, 0.884);
   /* min-height: 73px; */
 }
 

@@ -29,8 +29,6 @@ export default {
   data() {
     return {
       title: 'Dust, Etc.',
-      subtitle: 'a site',
-      show: true,
       newReleases: data.albums.slice(0, 4)
     }
   }
