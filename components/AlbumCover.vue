@@ -1,6 +1,6 @@
 <template>
   <b-col :md="onDiscographyPage ? 3 : 6">
-    <n-link :to="album.title.replace(/ /g, '')">
+    <n-link :to="album.title.replace(/ /g, '').toLowerCase()">
       <img
         :src="album.images.small"
         class="album-cover"

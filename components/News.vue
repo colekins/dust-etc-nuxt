@@ -38,7 +38,7 @@
         </cite>
       </blockquote>
       <iframe
-        style="border: 0; width: 100%; height: 310px;"
+        style="border: 0; width: 100%; height: 340px;"
         src="https://bandcamp.com/EmbeddedPlayer/album=303252568/size=large/bgcol=ffffff/linkcol=0687f5/artwork=small/transparent=true/"
         seamless
         ><a href="http://dustetc.bandcamp.com/album/summer-winter"
