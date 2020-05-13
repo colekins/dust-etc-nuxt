@@ -4,10 +4,10 @@ export default {
   mode: 'spa',
   generate: {
     routes() {
-      const res = data
-      return res.albums.map((album) => {
+      const res = data.albums
+      return res.map((album) => {
         return {
-          // route: '/albums/' + album.title.replace(/ /g, '').toLowerCase()
+          route: '/albums/' + album.title.replace(/ /g, '').toLowerCase()
         }
       })
     }
