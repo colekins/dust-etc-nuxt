@@ -55,6 +55,15 @@ export default {
   border-radius: 0;
 }
 
+.lowertron {
+  height: 190px;
+  background-image: url('https://i.imgur.com/TAv3NYz.jpg');
+  background-position: center;
+  background-size: 100%;
+  min-width: 100%;
+  border-radius: 0;
+}
+
 .title {
   display: block;
   font-weight: 300;
