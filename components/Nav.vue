@@ -25,7 +25,7 @@
 <style>
 .navbar {
   z-index: 2000;
-  background: rgba(255, 255, 255, 0.79);
+  background: rgba(255, 255, 255, 0.91);
   padding-left: 2em;
   padding-right: 2em;
   border-bottom: 0.6px solid rgba(219, 219, 219, 0.884);
