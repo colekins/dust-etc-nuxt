@@ -22,9 +22,7 @@ export default {
   asyncData({ params, payload }) {
     return {
       album: albums.filter(
-        (album) =>
-          album.title.toLowerCase() === params.album ||
-          album.slug === params.album
+        (album) => album.title.replace(/ /g, '').toLowerCase() === params.album
       )[0]
     }
   },

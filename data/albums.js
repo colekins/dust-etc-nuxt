@@ -29,7 +29,6 @@ const data = {
     },
     {
       title: 'summer winter',
-      slug: 'summerwinter',
       artist: 'kerem atalay',
       releaseDate: 'March 8, 2019',
       embed: '',
@@ -131,7 +130,6 @@ const data = {
     },
     {
       title: 'big sky',
-      slug: 'bigsky',
       artist: 'space mountain',
       releaseDate: 'August 26, 2016',
       embed: '',
@@ -157,7 +155,6 @@ const data = {
     },
     {
       title: 'norman doors',
-      slug: 'normandoors',
       artist: 'flout',
       releaseDate: 'July 22, 2016',
       embed: '',
