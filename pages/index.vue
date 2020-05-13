@@ -3,7 +3,7 @@
     <n-link to="/discography">
       <div class="jumbotron"></div>
     </n-link>
-    <div class="container-fluid content-container" @click="show = !show">
+    <div class="container-fluid content-container">
       <b-row>
         <b-col lg>
           <News />

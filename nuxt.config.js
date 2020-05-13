@@ -1,5 +1,18 @@
+import data from './data/albums.js'
+
 export default {
   mode: 'spa',
+  generate: {
+    async routes() {
+      const res = await data
+      return res.albums.map((album) => {
+        return {
+          route: '/albums/' + album.title.replace(/ /g, '').toLowerCase(),
+          payload: album
+        }
+      })
+    }
+  },
   /*
    ** Headers of the page
    */

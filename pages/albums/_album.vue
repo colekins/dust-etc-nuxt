@@ -15,11 +15,15 @@
 </template>
 
 <script>
+import data from '~/data/albums.js'
+
 export default {
-  components: {},
-  props: {
-    // eslint-disable-next-line vue/require-default-prop
-    album: Object
+  asyncData({ params, payload }) {
+    if (payload) return { album: payload }
+    else console.log(params, payload)
+    return {
+      album: data.albums[0]
+    }
   },
   data() {
     return {
@@ -29,18 +33,4 @@ export default {
 }
 </script>
 
-<style>
-.album-cover {
-  margin-bottom: 2.1em;
-}
-
-.item-title {
-  font-size: 16px;
-  text-align: center;
-  text-transform: capitalize;
-}
-
-.italic {
-  font-style: italic;
-}
-</style>
+<style></style>
