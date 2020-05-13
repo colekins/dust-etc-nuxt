@@ -1,5 +1,5 @@
 <template>
-  <div class="container discography">
+  <div class="container-fluid content-container discography">
     <b-row>
       <AlbumCover
         v-for="album in albums"

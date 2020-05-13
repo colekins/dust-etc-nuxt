@@ -39,7 +39,7 @@ export default {
 
 <style>
 .content-container {
-  padding: 0 4em;
+  padding: 0 4.3em;
   padding-bottom: 4em;
 }
 
