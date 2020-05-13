@@ -1,5 +1,5 @@
 <template>
-  <b-col md="6" xs="6">
+  <b-col :md="onDiscographyPage ? 3 : 6">
     <n-link :to="album.title.replace(/ /g, '')">
       <img
         :src="album.images.small"
@@ -17,6 +17,11 @@ export default {
   props: {
     // eslint-disable-next-line vue/require-default-prop
     album: Object
+  },
+  data() {
+    return {
+      onDiscographyPage: this.$route.name === 'discography'
+    }
   }
 }
 </script>
