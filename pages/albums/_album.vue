@@ -16,13 +16,16 @@
 
 <script>
 import data from '~/data/albums.js'
+const albums = data.albums
 
 export default {
   asyncData({ params, payload }) {
-    if (payload) return { album: payload }
-    else console.log(params, payload)
     return {
-      album: data.albums[0]
+      album: albums.filter(
+        (album) =>
+          album.title.toLowerCase() === params.album ||
+          album.slug === params.album
+      )[0]
     }
   },
   data() {
