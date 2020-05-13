@@ -31,7 +31,7 @@ export default {
 
 <style>
 .album-cover {
-  margin-bottom: 1.7em;
+  margin-bottom: 2.1em;
 }
 
 .item-title {
