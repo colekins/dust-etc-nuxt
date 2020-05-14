@@ -32,7 +32,12 @@ export default {
 <style>
 .album-cover {
   margin-bottom: 2.1em;
+  transition: transform 0.3s ease;
 }
+
+/* .album-cover:hover {
+  transform: scale(1.05);
+} */
 
 .item-title {
   font-size: 16px;
