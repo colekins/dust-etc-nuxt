@@ -9,7 +9,11 @@
     <b-row>
       <b-col md="6">
         <a :href="album.links.bandcamp" target="_blank">
-          <img :src="album.images.tape" width="100%" :alt="album.title" />
+          <img
+            :src="album.images.vinyl || album.images.cd || album.images.tape"
+            width="100%"
+            :alt="album.title"
+          />
         </a>
       </b-col>
       <b-col md="6">
