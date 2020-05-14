@@ -6,7 +6,7 @@
     <div class="container-fluid content-container">
       <b-row>
         <b-col lg>
-          <News />
+          <LatestNews />
         </b-col>
         <b-col lg>
           <NewReleases :albums="newReleases" />
@@ -18,13 +18,13 @@
 
 <script>
 import NewReleases from '~/components/NewReleases.vue'
-import News from '~/components/News.vue'
+import LatestNews from '~/components/LatestNews.vue'
 import data from '~/data/albums.js'
 
 export default {
   components: {
     NewReleases,
-    News
+    LatestNews
   },
   data() {
     return {
