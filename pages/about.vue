@@ -37,7 +37,7 @@ export default {
 
 <style>
 .about {
-  margin-top: 2em;
+  margin-top: 3em;
   margin-bottom: 4em;
 }
 .about-text {
