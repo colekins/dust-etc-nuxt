@@ -8,6 +8,7 @@
       <b-col md="6">
         <a :href="album.links.bandcamp" target="_blank">
           <img
+            class="merch-image"
             :src="album.images.vinyl || album.images.cd || album.images.tape"
             width="100%"
             :alt="album.title"
@@ -20,7 +21,7 @@
             {{ album.review.body }}
           </p>
           <cite>
-            - {{ album.review.author }}
+            - {{ album.review.author }},
             <a :href="album.review.link[1]" target="_blank">
               {{ album.review.link[0] }}
             </a>
@@ -59,6 +60,11 @@ export default {
 
 .album-artist {
   text-transform: capitalize;
+}
+
+.merch-image {
+  position: sticky;
+  top: 88px;
 }
 
 .release-date {
