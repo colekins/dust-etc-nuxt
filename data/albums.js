@@ -137,7 +137,7 @@ const data = {
     {
       title: 'big sky',
       artist: 'space mountain',
-      releaseDate: 'August 26, 2016. Tapes release by Super Fan 99 Records',
+      releaseDate: 'August 26, 2016. Tape release by Super Fan 99 Records',
       embed:
         '<iframe style="border: 0; width: 100%; height: 310px;" src="https://bandcamp.com/EmbeddedPlayer/album=1749790576/size=large/bgcol=ffffff/linkcol=0687f5/artwork=small/transparent=true/" seamless><a href="http://spacemountain.bandcamp.com/album/big-sky">Big Sky by Space Mountain</a></iframe> ',
       review: {
