@@ -28,7 +28,7 @@
           </cite>
         </blockquote>
         <span v-html="album.embed"></span>
-        <div class="release-date">Released {{ album.releaseDate }}</div>
+        <div class="release-date">Released {{ album.releaseDate }}.</div>
         <span class="spotify" v-html="album.links.spotify"></span>
       </b-col>
     </b-row>

@@ -30,8 +30,9 @@ const data = {
     {
       title: 'summer winter',
       artist: 'kerem atalay',
-      releaseDate: 'March 8, 2019',
-      embed: '',
+      releaseDate: 'June 22, 2018',
+      embed:
+        '<iframe style="border: 0; width: 100%; height: 310px;" src="https://bandcamp.com/EmbeddedPlayer/album=303252568/size=large/bgcol=ffffff/linkcol=0687f5/artwork=small/transparent=true/" seamless><a href="http://dustetc.bandcamp.com/album/summer-winter">Summer Winter by Kerem Atalay</a></iframe>',
       review: {
         body:
           'Summer Winter stems from the southern blues of Fahey’s earlier work. Split into two seasonal sides—“Summer” and “Winter,” four parts each—Atalay asks listeners to lean in closely to spot the subtle differences in how his guitar, all acoustic with no effects, translates hot and cool. The familiar ways to differentiate the seasons are present. “Summer” is often faster, louder, and has a warmer tone, while “Winter” is cooler in tone, quiet, and slower. The trap with these traditional fingerpicked methods is that one could make “Winter” less complex and less compelling. Atalay avoids this with a clever choice: He tweaks the weight of the notes.',
@@ -56,7 +57,8 @@ const data = {
       title: 'Grinch',
       artist: 'first thought worst thought',
       releaseDate: 'February 2, 2018',
-      embed: '',
+      embed:
+        '<iframe style="border: 0; width: 100%; height: 310px;" src="https://bandcamp.com/EmbeddedPlayer/album=2898210205/size=large/bgcol=ffffff/linkcol=0687f5/artwork=small/transparent=true/" seamless><a href="http://dustetc.bandcamp.com/album/grinch">Grinch by First Thought Worst Thought</a></iframe>',
       review: {
         body:
           'The sentiment veers from blunt reportage of the situation (“killed himself, hit the vein, got dragged to hell”) to acceptance (“I get that I couldn’t help this time”) to a kind of hopeful guilt, imagining that the right intervention might have been enough after all. The latter, which closes the song (and thus forms the lasting emotion), is not so much self-flagellation over chances missed, but rather a deep need to believe that people can be saved, that the things we can say or do are (or could be) enough to drag people from despair.',
@@ -68,7 +70,8 @@ const data = {
       },
       links: {
         bandcamp: 'https://dustetc.bandcamp.com/album/grinch',
-        spotify: ''
+        spotify:
+          '<iframe class="spotify" src="https://open.spotify.com/follow/1/?uri=spotify:artist:0EmEvZiWKVe0R4K66IsQy6?si=IVoYX1LHQzSKg3qR4NsPOg&size=basic&theme=light" width="100" height="25" scrolling="no" frameborder="0" style="border:none; overflow:hidden;" allowtransparency="true"></iframe>'
       },
       images: {
         small: 'https://f4.bcbits.com/img/a1189501631_2.jpg',
@@ -80,9 +83,9 @@ const data = {
     {
       title: 'supermundane',
       artist: 'space mountain',
-      releaseDate: 'August 4, 2017',
+      releaseDate: 'August 4, 2017. Tape release by Forged Artifacts',
       embed:
-        '<iframe style="border: 0; width: 100%; height: 370px;" src="https://bandcamp.com/EmbeddedPlayer/album=756941381/size=large/bgcol=ffffff/linkcol=0687f5/artwork=small/transparent=true/" seamless><a href="http://spacemountain.bandcamp.com/album/togetherness">Togetherness by Space Mountain</a></iframe>',
+        '<iframe style="border: 0; width: 100%; height: 310px;" src="https://bandcamp.com/EmbeddedPlayer/album=3918716030/size=large/bgcol=ffffff/linkcol=0687f5/artwork=small/transparent=true/" seamless><a href="http://spacemountain.bandcamp.com/album/supermundane">Supermundane by Space Mountain</a></iframe>',
       review: {
         body:
           "'White Light' is the record's first single, a poetic and subtly twangy ballad that bubbles beneath Kinsler's low croon, pairing acoustic guitars together with fuzzy distortion. As we ponder the depths of our galaxy and the truths of the natural world, Space Mountain builds upon a front-porch charm, embracing DIY's folkier roots with layered synths and a driving melody that squirms through the heart of Kinsler's sun-soaked bummer pop. There's a delicate balance to the gloom and his thoughtful expanse, a lush calm and warm aura.",
@@ -94,7 +97,8 @@ const data = {
       },
       links: {
         bandcamp: 'https://spacemountain.bandcamp.com/album/supermundane',
-        spotify: ''
+        spotify:
+          '<iframe class="spotify" src="https://open.spotify.com/follow/1/?uri=spotify:artist:1X9FdQzGc1UmGJNNLmOZf8&size=basic&theme=light" width="100" height="25" scrolling="no" frameborder="0" style="border:none; overflow:hidden;" allowtransparency="true"></iframe>'
       },
       images: {
         small: 'https://f4.bcbits.com/img/a2041212793_2.jpg',
@@ -107,7 +111,8 @@ const data = {
       title: 'Spring',
       artist: 'dust from 1000 yrs',
       releaseDate: 'September 9, 2016',
-      embed: '',
+      embed:
+        '<iframe style="border: 0; width: 100%; height: 310px;" src="https://bandcamp.com/EmbeddedPlayer/album=4029154937/size=large/bgcol=ffffff/linkcol=0687f5/artwork=small/transparent=true/" seamless><a href="http://dustetc.bandcamp.com/album/spring">Spring by Dust From 1000 Yrs</a></iframe>',
       review: {
         body:
           'Described as “a document of all the alienation, confusion, depression, and anger that comes from a big baby breaking out of his shell in a completely new and unknown environment“, the new record is introduced via the weird-but-wonderful slow-crawl of ‘someday’ – itself presented as an affective, annotated video piece. Making on good on those aforementioned influences, the song itself is strikingly poignant, sounding something like a crack of light in the most enveloping darkness.',
@@ -119,7 +124,8 @@ const data = {
       },
       links: {
         bandcamp: 'https://dustetc.bandcamp.com/album/spring',
-        spotify: ''
+        spotify:
+          '<iframe src="https://open.spotify.com/follow/1/?uri=spotify:artist:62LSLnuC5Z1WkR5Hkw5Sde&size=basic&theme=light" width="100" height="25" scrolling="no" frameborder="0" style="border:none; overflow:hidden;" allowtransparency="true"></iframe>'
       },
       images: {
         small: 'https://f4.bcbits.com/img/a3747887966_2.jpg',
@@ -131,8 +137,9 @@ const data = {
     {
       title: 'big sky',
       artist: 'space mountain',
-      releaseDate: 'August 26, 2016',
-      embed: '',
+      releaseDate: 'August 26, 2016. Tapes release by Super Fan 99 Records',
+      embed:
+        '<iframe style="border: 0; width: 100%; height: 310px;" src="https://bandcamp.com/EmbeddedPlayer/album=1749790576/size=large/bgcol=ffffff/linkcol=0687f5/artwork=small/transparent=true/" seamless><a href="http://spacemountain.bandcamp.com/album/big-sky">Big Sky by Space Mountain</a></iframe> ',
       review: {
         body:
           'Never before has Space Mountain sounded as expansive or as thoughtful, a mixture that pays massive dividends. By finding a way to bridge both the carefree, open-road atmosphere that permeates throughout some of the most timeless folk records and the dynamics that typically characterize a roster like Exploding In Sound’s, “Never Lonely” creates something that feels refreshing in its modernity while digging its heels deep into the past.',
@@ -144,7 +151,8 @@ const data = {
       },
       links: {
         bandcamp: 'https://spacemountain.bandcamp.com/album/big-sky',
-        spotify: ''
+        spotify:
+          '<iframe class="spotify" src="https://open.spotify.com/follow/1/?uri=spotify:artist:1X9FdQzGc1UmGJNNLmOZf8&size=basic&theme=light" width="100" height="25" scrolling="no" frameborder="0" style="border:none; overflow:hidden;" allowtransparency="true"></iframe>'
       },
       images: {
         small: 'https://f4.bcbits.com/img/a3079171242_2.jpg',
@@ -157,7 +165,8 @@ const data = {
       title: 'norman doors',
       artist: 'flout',
       releaseDate: 'July 22, 2016',
-      embed: '',
+      embed:
+        '<iframe style="border: 0; width: 100%; height: 310px;" src="https://bandcamp.com/EmbeddedPlayer/album=881296753/size=large/bgcol=ffffff/linkcol=0687f5/artwork=small/transparent=true/" seamless><a href="http://dustetc.bandcamp.com/album/norman-doors">Norman Doors by Flout</a></iframe>',
       review: {
         body:
           'A Norman Door is a term given to a poorly designed door that leaves you standing in front of it wondering whether to push or pull it open. It’s an apt metaphor for times in our lives and the songs on Norman Doors give off the vibe that they’re about those very moments. Songs that are perfect for those summer afternoons spent wondering what to do once fall comes. The soundtrack to sitting out on the porch, daydreaming with headphones on and enjoying the sun.',
@@ -169,7 +178,8 @@ const data = {
       },
       links: {
         bandcamp: 'https://dustetc.bandcamp.com/album/norman-doors',
-        spotify: ''
+        spotify:
+          '<iframe class="spotify" src="https://open.spotify.com/follow/1/?uri=spotify:artist:2n5UUQxuvs86Ca2L47QwzS&size=basic&theme=light" width="100" height="25" scrolling="no" frameborder="0" style="border:none; overflow:hidden;" allowtransparency="true"></iframe>'
       },
       images: {
         small: 'https://f4.bcbits.com/img/a2884906672_2.jpg',
@@ -182,7 +192,8 @@ const data = {
       title: 'wronggg',
       artist: 'harmoos',
       releaseDate: 'August 14, 2014',
-      embed: '',
+      embed:
+        '<iframe style="border: 0; width: 100%; height: 310px;" src="https://bandcamp.com/EmbeddedPlayer/album=2116773311/size=large/bgcol=ffffff/linkcol=0687f5/artwork=small/transparent=true/" seamless><a href="http://dustetc.bandcamp.com/album/wronggg">WRONGGG by Harmoos</a></iframe>',
       review: {
         body:
           'The collection ends with the most beautiful track, “Dust”. Curious synth textures and alluring saxophone flurry around the guitar as we’re left with this final thought: “There’s so much more to life than what goes wrong / and what goes right.” A glimmer of hope, but only if the listener is willing to do their part and decide for themselves what lies beyond life’s successes, shortcomings, and expectations.',
@@ -204,7 +215,8 @@ const data = {
       title: 'gargantua',
       artist: 'space mountain',
       releaseDate: 'October 23, 2015',
-      embed: '',
+      embed:
+        '<iframe style="border: 0; width: 100%; height: 310px;" src="https://bandcamp.com/EmbeddedPlayer/album=2652570546/size=large/bgcol=ffffff/linkcol=0687f5/artwork=small/transparent=true/" seamless><a href="http://spacemountain.bandcamp.com/album/gargantua">Gargantua by Space Mountain</a></iframe>',
       review: {
         body:
           'In the end, Gargantua feels a lot like a long love letter. Not to just a person in particular, but to mountains, birds, dying stars, the sounds that surround us and also the stillness. It is a an embrace of the intangible. Kinsler avoids painting himself as a cooler-than-life-rocker or a tortured sad boy. Instead, through Gargantua, he stands humbly in the raw light of his songs. No gimmick. Just a songwriter in awe of all he sees and feels. The sad things. The sweet things. The funny things. Everything.',
@@ -216,7 +228,8 @@ const data = {
       },
       links: {
         bandcamp: 'https://spacemountain.bandcamp.com/album/gargantua',
-        spotify: ''
+        spotify:
+          '<iframe class="spotify" src="https://open.spotify.com/follow/1/?uri=spotify:artist:1X9FdQzGc1UmGJNNLmOZf8&size=basic&theme=light" width="100" height="25" scrolling="no" frameborder="0" style="border:none; overflow:hidden;" allowtransparency="true"></iframe>'
       },
       images: {
         small: 'https://f4.bcbits.com/img/a2273768638_2.jpg',
