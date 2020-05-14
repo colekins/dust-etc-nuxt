@@ -1,6 +1,5 @@
 <template>
   <div>
-    <!-- <div class="lowertron"></div> -->
     <footer class="container-fluid">
       <hr />
       <b-row class="socials">
