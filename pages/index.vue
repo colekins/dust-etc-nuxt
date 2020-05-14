@@ -39,6 +39,10 @@ export default {
 .content-container {
   padding: 0 4.3em;
   padding-bottom: 4em;
+  /* position: relative;
+  top: 470px;
+  background: white;
+  padding-top: 1em; */
 }
 
 .section-title {
@@ -53,16 +57,17 @@ export default {
   background-size: cover;
   min-width: 100%;
   border-radius: 0;
+  /* position: fixed; */
 }
 
-.lowertron {
+/* .lowertron {
   height: 190px;
   background-image: url('https://i.imgur.com/TAv3NYz.jpg');
   background-position: center;
   background-size: 100%;
   min-width: 100%;
   border-radius: 0;
-}
+} */
 
 .title {
   display: block;

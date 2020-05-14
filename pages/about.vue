@@ -35,7 +35,7 @@ export default {
 
 <style>
 .about {
-  margin-top: 10vh;
+  margin-top: 8vh;
   text-align: center;
   font-size: 17px;
 }
