@@ -1,17 +1,34 @@
+/* eslint-disable vue/no-v-html */
+
 <template>
-  <b-col
-    :lg="onDiscographyPage ? 3 : 6"
-    :md="onDiscographyPage ? 4 : 6"
-    sm="6"
-    class="album-cover"
-  >
-    <n-link :to="'albums/' + album.title.replace(/ /g, '').toLowerCase()">
-      <img :src="album.images.small" width="100%" :alt="album.title" />
-    </n-link>
-    <div v-if="onDiscographyPage" class="item-title">
-      {{ album.artist }} - <span class="italic">{{ album.title }}</span>
-    </div>
-  </b-col>
+  <div class="container-fluid content-container album-page">
+    <h2 class="album-artist">
+      {{ album.artist }} -
+      <span class="album-title">{{ album.title }}</span>
+    </h2>
+    <b-row>
+      <b-col md="6">
+        <a :href="album.links.bandcamp" target="_blank">
+          <img :src="album.images.tape" width="100%" :alt="album.title" />
+        </a>
+      </b-col>
+      <b-col md="6">
+        <blockquote class="quote-card">
+          <p>
+            {{ album.review.body }}
+          </p>
+          <cite>
+            - {{ album.review.author }}
+            <a :href="album.review.link[1]" target="_blank">
+              {{ album.review.link[0] }}
+            </a>
+          </cite>
+        </blockquote>
+        <span v-html="album.embed"></span>
+        <div class="release-date">Released {{ album.releaseDate }}</div>
+      </b-col>
+    </b-row>
+  </div>
 </template>
 
 <script>
@@ -27,11 +44,21 @@ export default {
     }
   },
   data() {
-    return {
-      onDiscographyPage: this.$route.name === 'discography'
-    }
+    return {}
   }
 }
 </script>
 
-<style></style>
+<style>
+.album-page {
+  margin-top: 2em;
+}
+
+.album-artist {
+  text-transform: capitalize;
+}
+
+.release-date {
+  font-size: 15px;
+}
+</style>
