@@ -60,6 +60,7 @@ export default {
 
 .album-artist {
   text-transform: capitalize;
+  margin-bottom: 0.4em;
 }
 
 .merch-image {
