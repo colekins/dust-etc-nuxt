@@ -1,5 +1,3 @@
-/* eslint-disable vue/no-v-html */
-
 <template>
   <div class="container-fluid content-container album-page">
     <h2 class="album-artist">
@@ -30,6 +28,7 @@
         </blockquote>
         <span v-html="album.embed"></span>
         <div class="release-date">Released {{ album.releaseDate }}</div>
+        <span class="spotify" v-html="album.links.spotify"></span>
       </b-col>
     </b-row>
   </div>
@@ -64,5 +63,9 @@ export default {
 
 .release-date {
   font-size: 15px;
+}
+
+.spotify {
+  float: right;
 }
 </style>
