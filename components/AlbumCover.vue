@@ -5,7 +5,7 @@
     sm="6"
     class="album-cover"
   >
-    <n-link :to="'albums/' + album.title.replace(/ /g, '').toLowerCase()">
+    <n-link :to="'/albums/' + album.title.replace(/ /g, '').toLowerCase()">
       <img :src="album.images.small" width="100%" :alt="album.title" />
     </n-link>
     <div v-if="onDiscographyPage" class="item-title">
