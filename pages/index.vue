@@ -31,6 +31,13 @@ export default {
       title: 'Dust, Etc.',
       newReleases: data.albums.slice(0, 4)
     }
+  },
+  head() {
+    return {
+      script: [
+        { src: 'https://identity.netlify.com/v1/netlify-identity-widget.js' }
+      ]
+    }
   }
 }
 </script>
