@@ -6,7 +6,11 @@
     </h2>
     <b-row>
       <b-col md="6">
-        <a :href="album.links.bandcamp" target="_blank">
+        <a
+          :href="album.links.bandcamp"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
           <img
             class="merch-image"
             :src="album.images.vinyl || album.images.cd || album.images.tape"
@@ -29,7 +33,16 @@
         </blockquote>
         <span v-html="album.embed"></span>
         <div class="release-date">Released {{ album.releaseDate }}.</div>
-        <span class="spotify" v-html="album.links.spotify"></span>
+        <div class="buttons">
+          <a
+            class="buy-link"
+            :href="album.links.bandcamp"
+            rel="noopener noreferrer"
+            target="_blank"
+            >Buy
+          </a>
+          <span class="spotify" v-html="album.links.spotify"></span>
+        </div>
       </b-col>
     </b-row>
   </div>
@@ -63,6 +76,33 @@ export default {
   margin-bottom: 0.4em;
 }
 
+.buy-link {
+  background: #2796e0;
+  font-family: Arial;
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 15px;
+  padding: 0 19px;
+  text-decoration: none;
+  border-radius: 5.5px;
+  float: right;
+  transition: all 0.2s ease;
+  margin-left: 5px;
+}
+
+.buttons a:link,
+a:active,
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+.buy-link:hover {
+  color: white;
+  transform: scale(1.04);
+  background: #4db4f8;
+}
+
 .merch-image {
   position: sticky;
   top: 88px;
@@ -74,5 +114,6 @@ export default {
 
 .spotify {
   float: right;
+  margin-top: 0.5px;
 }
 </style>
