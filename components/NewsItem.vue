@@ -2,6 +2,7 @@
 <template>
   <b-row>
     <b-col class="news-item">
+      <h5>{{ date }}</h5>
       <h2>
         {{ post.title.split('-')[0] }} -
         <span class="album-title">{{ post.title.split('-')[1] }}</span>
@@ -17,6 +18,11 @@ export default {
   props: {
     // eslint-disable-next-line vue/require-default-prop
     post: Object
+  },
+  data() {
+    return {
+      date: new Date(this.post.date).toDateString()
+    }
   }
 }
 </script>

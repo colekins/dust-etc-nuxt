@@ -15,5 +15,5 @@ const fillStore = () => {
     res.slug = key.slice(2, -5)
     return res
   })
-  return blogPosts
+  return blogPosts.reverse()
 }
