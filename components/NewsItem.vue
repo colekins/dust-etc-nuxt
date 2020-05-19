@@ -1,7 +1,7 @@
 /* eslint-disable vue/no-v-html */
 <template>
   <div class="news-item">
-    <b-row>
+    <b-row class="info-row">
       <b-col>
         <h5 class="date">{{ date }}</h5>
         <h2>
@@ -39,11 +39,11 @@ export default {
 </script>
 
 <style>
+.info-row {
+  margin-bottom: 0.7em;
+}
 .date {
   font-style: italic;
   font-size: 1.18em;
-}
-.news-item {
-  /* padding-bottom: 1em; */
 }
 </style>
