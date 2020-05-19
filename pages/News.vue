@@ -13,7 +13,7 @@ export default {
   },
   computed: {
     posts() {
-      return this.$store.state.blogPosts.reverse()
+      return this.$store.state.blogPosts
     }
   }
 }
