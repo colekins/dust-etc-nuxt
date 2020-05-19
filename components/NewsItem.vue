@@ -18,9 +18,9 @@
         <span v-html="post.embed"></span>
         <br />
         <br />
-        <hr />
       </b-col>
     </b-row>
+    <hr />
   </div>
 </template>
 
