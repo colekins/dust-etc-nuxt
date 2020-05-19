@@ -87,4 +87,10 @@ export default {
     padding-bottom: 2.3em;
   }
 }
+
+@media only screen and (max-width: 576px) {
+  .jumbotron {
+    height: 320px;
+  }
+}
 </style>
