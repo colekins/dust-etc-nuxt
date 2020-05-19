@@ -9,14 +9,7 @@
       </h2>
 
       <p class="news" v-html="$md.render(news.body)"></p>
-      <iframe
-        style="border: 0; width: 100%; height: 340px;"
-        src="https://bandcamp.com/EmbeddedPlayer/album=303252568/size=large/bgcol=ffffff/linkcol=0687f5/artwork=small/transparent=true/"
-        seamless
-        ><a href="http://dustetc.bandcamp.com/album/summer-winter"
-          >Summer Winter by Kerem Atalay</a
-        ></iframe
-      >
+      <span v-html="news.embed"></span>
     </div>
   </div>
 </template>
