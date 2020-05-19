@@ -84,7 +84,7 @@ export default {
   font-size: 15px;
   padding: 0 19px;
   text-decoration: none;
-  border-radius: 5.5px;
+  border-radius: 4px;
   float: right;
   transition: all 0.2s ease;
   margin-left: 5px;
@@ -99,7 +99,7 @@ a:visited {
 
 .buy-link:hover {
   color: white;
-  transform: scale(1.04);
+  transform: scale(1.03);
   background: #4db4f8;
 }
 
