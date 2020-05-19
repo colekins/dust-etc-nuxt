@@ -2,17 +2,11 @@
   <div>
     <div class="section-title">News</div>
     <div class="news-item">
-      <h2>Kerem Atalay - <span class="album-title">Summer Winter</span></h2>
+      <!-- <h2>Kerem Atalay - <span class="album-title">Summer Winter</span></h2> -->
+      <h2>{{ news.title }}</h2>
 
       <p class="news">
-        Kerem Atalay is a self-taught guitarist who discovered American
-        Primitive guitar while studying at University of Maryland and living in
-        Takoma Park - where the style, and its creator, were both born. His work
-        varies in structure and character, ranging from long-form compositions
-        to brief impressionistic explorations. The pieces on
-        <span class="italic">Summer Winter</span> tend to fall somewhere close
-        to the middle of that spectrum and all draw inspiration from the seasons
-        they are named after.
+        {{ news.body }}
       </p>
 
       <blockquote class="quote-card">
@@ -48,6 +42,16 @@
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  computed: {
+    news() {
+      return this.$store.state.blogPosts[0]
+    }
+  }
+}
+</script>
 
 <style>
 .album-row {

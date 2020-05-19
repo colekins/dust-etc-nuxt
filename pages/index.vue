@@ -31,11 +31,7 @@ export default {
       newReleases: data.albums.slice(0, 4)
     }
   },
-  computed: {
-    news() {
-      return this.$store.state.blogPosts
-    }
-  },
+
   head() {
     return {
       script: [
