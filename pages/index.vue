@@ -28,7 +28,6 @@ export default {
   },
   data() {
     return {
-      title: 'Dust, Etc.',
       newReleases: data.albums.slice(0, 4)
     }
   },
