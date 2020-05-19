@@ -91,8 +91,8 @@ export default {
 }
 
 .buttons a:link,
-a:active,
-a:visited {
+.buttons a:active,
+.buttons a:visited {
   color: white;
   text-decoration: none;
 }
