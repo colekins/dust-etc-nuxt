@@ -46,10 +46,6 @@ export default {
 .content-container {
   padding: 0 4.3em;
   padding-bottom: 4em;
-  /* position: relative;
-  top: 470px;
-  background: white;
-  padding-top: 1em; */
 }
 
 .section-title {
@@ -79,5 +75,12 @@ export default {
   font-size: 42px;
   word-spacing: 5px;
   padding-bottom: 15px;
+}
+
+@media only screen and (max-width: 800px) {
+  .content-container {
+    padding: 0 2em;
+    padding-bottom: 2.3em;
+  }
 }
 </style>

@@ -42,6 +42,7 @@ export default {
   padding-left: 4em;
   padding-right: 4em;
   border-bottom: 0.6px solid rgba(219, 219, 219, 0.884);
+  min-height: 78.5px;
   /* min-height: 73px; */
 }
 
@@ -65,6 +66,18 @@ export default {
   }
   100% {
     opacity: 1;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .navbar {
+    padding: 0 2em;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .navbar {
+    padding: none;
   }
 }
 </style>

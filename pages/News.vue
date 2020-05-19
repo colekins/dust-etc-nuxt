@@ -1,5 +1,5 @@
 <template>
-  <b-container class="container news-container">
+  <b-container class="container-fluid news-container">
     <NewsItem
       v-for="post in posts"
       :key="post.title"

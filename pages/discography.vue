@@ -1,5 +1,5 @@
 <template>
-  <div class="container-fluid discography">
+  <div class="container-fluid content-container discography">
     <b-row>
       <AlbumCover
         v-for="album in albums"
@@ -28,7 +28,11 @@ export default {
 .discography {
   text-align: center;
   margin-top: 3.5em;
-  padding: 0 4.3em;
-  padding-bottom: 4em;
+}
+
+@media only screen and (max-width: 700px) {
+  .navbar {
+    padding: 0 2em;
+  }
 }
 </style>
