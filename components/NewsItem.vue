@@ -2,7 +2,7 @@
 <template>
   <b-row>
     <b-col class="news-item">
-      <h5>{{ date }}</h5>
+      <h5 class="date">{{ date }}</h5>
       <h2>
         {{ post.title.split('-')[0] }} -
         <span class="album-title">{{ post.title.split('-')[1] }}</span>
@@ -28,4 +28,9 @@ export default {
 }
 </script>
 
-<style></style>
+<style>
+.date {
+  font-style: italic;
+  font-size: 1.18em;
+}
+</style>
