@@ -1,8 +1,6 @@
 <template>
   <div>
-    <n-link to="/discography">
-      <div class="jumbotron"></div>
-    </n-link>
+    <div class="jumbotron"></div>
     <div class="container-fluid content-container">
       <b-row>
         <b-col lg>
@@ -60,7 +58,6 @@ export default {
   background-size: cover;
   min-width: 100%;
   border-radius: 0;
-  /* position: fixed; */
 }
 
 .title {

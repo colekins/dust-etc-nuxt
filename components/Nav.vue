@@ -41,9 +41,8 @@ export default {
   background: rgba(255, 255, 255, 0.91);
   padding-left: 4em;
   padding-right: 4em;
-  border-bottom: 0.6px solid rgba(219, 219, 219, 0.884);
-  min-height: 78.5px;
-  /* min-height: 73px; */
+  border-bottom: 0.5px solid rgba(199, 199, 199, 0.884);
+  /* min-height: 78.5px; */
 }
 
 .nav-link {
@@ -71,7 +70,7 @@ export default {
 
 @media only screen and (max-width: 700px) {
   .navbar {
-    padding: 0 2em;
+    padding: 0.5rem 1rem;
   }
 }
 

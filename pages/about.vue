@@ -45,4 +45,11 @@ export default {
   text-align: center;
   font-size: 17px;
 }
+
+@media only screen and (max-width: 992px) {
+  .about {
+    margin-top: 0em;
+    margin-bottom: 4em;
+  }
+}
 </style>

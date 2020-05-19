@@ -29,10 +29,4 @@ export default {
   text-align: center;
   margin-top: 3.5em;
 }
-
-@media only screen and (max-width: 700px) {
-  .navbar {
-    padding: 0 2em;
-  }
-}
 </style>
