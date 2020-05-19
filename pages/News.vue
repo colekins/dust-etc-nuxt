@@ -1,6 +1,12 @@
 <template>
   <b-container class="container news-container">
-    <NewsItem v-for="post in posts" :key="post.title" :post="post"> </NewsItem>
+    <NewsItem
+      v-for="post in posts"
+      :key="post.title"
+      class="news-item-row"
+      :post="post"
+    >
+    </NewsItem>
   </b-container>
 </template>
 
@@ -20,6 +26,10 @@ export default {
 </script>
 
 <style>
+.news-item-row {
+  margin-bottom: 4em;
+}
+
 .news-container {
   margin-top: 3em;
   margin-bottom: 4em;

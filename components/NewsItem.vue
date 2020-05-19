@@ -8,6 +8,7 @@
         <span class="album-title">{{ post.title.split('-')[1] }}</span>
       </h2>
       <p class="news" v-html="$md.render(post.body)"></p>
+      <br />
       <hr />
     </b-col>
   </b-row>
@@ -27,22 +28,4 @@ export default {
 }
 </script>
 
-<style>
-.album-row {
-  margin-bottom: 20px;
-  margin-left: -15px;
-  margin-right: -15px;
-}
-
-.album-title {
-  font-style: italic;
-  font-weight: bold;
-}
-
-blockquote {
-  padding: 10px 20px;
-  margin: 0 0 20px;
-  font-size: 15.5px;
-  border-left: 5px solid #eee;
-}
-</style>
+<style></style>
