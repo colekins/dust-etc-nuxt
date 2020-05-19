@@ -7,6 +7,7 @@
         <span class="album-title">{{ post.title.split('-')[1] }}</span>
       </h2>
       <p class="news" v-html="$md.render(post.body)"></p>
+      <hr />
     </b-col>
   </b-row>
 </template>
