@@ -34,15 +34,7 @@ export default {
     return {
       script: [
         {
-          src: 'https://identity.netlify.com/v1/netlify-identity-widget.js',
-          meta: [
-            {
-              title: 'Dust, Etc.',
-              description: 'A record label in Portland, ME.',
-              og-image: 'https://dustetc.com/_nuxt/img/19fde88.jpg',
-              og-url: 'https://dustetc.com'
-            }
-          ]
+          src: 'https://identity.netlify.com/v1/netlify-identity-widget.js'
         }
       ]
     }
