@@ -28,7 +28,7 @@ export default {
       {
         hid: 'og:image',
         property: 'og:image',
-        content: 'ttps://dustetc.com/_nuxt/img/19fde88.jpg'
+        content: 'https://dustetc.com/_nuxt/img/19fde88.jpg'
       },
       {
         hid: 'description',
