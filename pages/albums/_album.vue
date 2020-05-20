@@ -104,7 +104,7 @@ export default {
 
 .spotify:hover,
 .buy-link:hover {
-  transform: scale(1.03);
+  transform: scale(1.04);
 }
 
 .merch-image {
