@@ -77,12 +77,12 @@ export default {
 }
 
 .buy-link {
-  background: #2796e0;
+  background: #2da4f3;
   font-family: Arial;
   font-weight: bold;
   color: #ffffff;
-  font-size: 15px;
-  padding: 0 19px;
+  font-size: 15.5px;
+  padding: 0 20px;
   text-decoration: none;
   border-radius: 4px;
   float: right;
