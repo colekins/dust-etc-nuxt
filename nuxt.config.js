@@ -20,7 +20,16 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { name: 'description', content: 'A record label in Portland, ME.' },
+      {
+        hid: 'og:description',
+        property: 'og:description',
+        content: 'A record label in Portland, ME.'
+      },
+      {
+        hid: 'og:image',
+        property: 'og:image',
+        content: 'ttps://dustetc.com/_nuxt/img/19fde88.jpg'
+      },
       {
         hid: 'description',
         name: 'description',
