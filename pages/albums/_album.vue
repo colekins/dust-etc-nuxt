@@ -86,7 +86,7 @@ export default {
   text-decoration: none;
   border-radius: 4px;
   float: right;
-  transition: all 0.2s ease;
+  transition: all 0.25s ease;
   margin-left: 5px;
 }
 
@@ -99,8 +99,12 @@ export default {
 
 .buy-link:hover {
   color: white;
-  transform: scale(1.03);
   background: #4db4f8;
+}
+
+.spotify:hover,
+.buy-link:hover {
+  transform: scale(1.03);
 }
 
 .merch-image {
@@ -114,6 +118,7 @@ export default {
 
 .spotify {
   float: right;
-  margin-top: 0.5px;
+  margin-top: 0.9px;
+  transition: all 0.25s ease;
 }
 </style>
