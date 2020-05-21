@@ -76,6 +76,13 @@ export default {
   padding-bottom: 15px;
 }
 
+@media only screen and (min-width: 1400px) {
+  .content-container {
+    padding: 0 12em;
+    padding-bottom: 4em;
+  }
+}
+
 @media only screen and (max-width: 950px) {
   .content-container {
     padding: 0 2.7em;

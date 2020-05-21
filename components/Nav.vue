@@ -58,6 +58,12 @@
   }
 }
 
+@media only screen and (min-width: 1400px) {
+  .navbar {
+    padding: 0.5rem 12rem;
+  }
+}
+
 @media only screen and (max-width: 700px) {
   .navbar {
     padding: 0.5rem 1rem;
