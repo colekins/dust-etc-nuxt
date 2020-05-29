@@ -5,10 +5,10 @@
       <b-col>
         <h5 class="date">{{ date }}</h5>
         <h2>
-          {{ post.title.split('-')[0] }}
-          <span v-if="post.title.split('-')[1]">
+          {{ headline }}
+          <span v-if="albumTitle">
             -
-            <span class="album-title">{{ post.title.split('-')[1] }}</span>
+            <span class="album-title">{{ albumTitle }}</span>
           </span>
         </h2>
       </b-col>
@@ -35,7 +35,9 @@ export default {
   },
   data() {
     return {
-      date: new Date(this.post.date).toDateString()
+      date: new Date(this.post.date).toDateString(),
+      headline: this.post.title.split('-')[0],
+      albumTitle: this.post.title.split('-')[1]
     }
   }
 }
@@ -43,10 +45,11 @@ export default {
 
 <style>
 .info-row {
-  margin-bottom: 0.7em;
+  margin-bottom: 1em;
 }
 .date {
   font-style: italic;
   font-size: 1.18em;
+  margin-bottom: 0.7em;
 }
 </style>
