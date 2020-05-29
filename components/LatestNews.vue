@@ -4,8 +4,11 @@
     <div class="section-title">News</div>
     <div class="news-item">
       <h2>
-        {{ news.title.split('-')[0] }} -
-        <span class="album-title">{{ news.title.split('-')[1] }}</span>
+        {{ news.title.split('-')[0] }}
+        <span v-if="news.title.split('-')[1]">
+          -
+          <span class="album-title">{{ news.title.split('-')[1] }}</span>
+        </span>
       </h2>
 
       <p class="news" v-html="$md.render(news.body)"></p>

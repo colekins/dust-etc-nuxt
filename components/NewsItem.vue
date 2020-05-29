@@ -5,8 +5,11 @@
       <b-col>
         <h5 class="date">{{ date }}</h5>
         <h2>
-          {{ post.title.split('-')[0] }} -
-          <span class="album-title">{{ post.title.split('-')[1] }}</span>
+          {{ post.title.split('-')[0] }}
+          <span v-if="post.title.split('-')[1]">
+            -
+            <span class="album-title">{{ post.title.split('-')[1] }}</span>
+          </span>
         </h2>
       </b-col>
     </b-row>
