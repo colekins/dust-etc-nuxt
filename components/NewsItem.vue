@@ -4,17 +4,17 @@
     <b-row class="info-row">
       <b-col>
         <h5 class="date">{{ date }}</h5>
-        <h2>
+      </b-col>
+    </b-row>
+    <b-row>
+      <b-col lg="6">
+        <h2 class="headline">
           {{ headline }}
           <span v-if="albumTitle">
             -
             <span class="album-title">{{ albumTitle }}</span>
           </span>
         </h2>
-      </b-col>
-    </b-row>
-    <b-row>
-      <b-col lg="6">
         <p class="news" v-html="$md.render(post.body)"></p>
       </b-col>
       <b-col>
@@ -44,12 +44,14 @@ export default {
 </script>
 
 <style>
+.headline {
+  margin-bottom: 0.4em;
+}
 .info-row {
-  margin-bottom: 1em;
+  margin-bottom: 0.5em;
 }
 .date {
   font-style: italic;
   font-size: 1.18em;
-  margin-bottom: 0.7em;
 }
 </style>
