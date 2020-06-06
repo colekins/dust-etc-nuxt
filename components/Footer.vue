@@ -9,7 +9,7 @@
             src="https://i.imgur.com/mRbxYxa.png"
             alt="bandcamp"
         /></a>
-        <a
+        <!-- <a
           class="social"
           href="https://www.facebook.com/dustetc/"
           target="_blank"
@@ -17,7 +17,7 @@
             style="height: 29px;"
             src="https://i.imgur.com/Wj5BGsH.png"
             alt="facebook"
-        /></a>
+        /></a> -->
         <a
           class="social"
           href="https://www.instagram.com/dustetc/"
