@@ -31,7 +31,7 @@
   background: rgba(255, 255, 255);
   padding-left: 4em;
   padding-right: 4em;
-  border-bottom: 0.5px solid rgba(199, 199, 199, 0.8);
+  border-bottom: 0.5px solid rgb(228, 228, 228);
   /* min-height: 78.5px; */
 }
 
