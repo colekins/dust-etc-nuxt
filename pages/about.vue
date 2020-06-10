@@ -17,8 +17,9 @@
         <p></p>
         <br />
       </b-col>
-      <b-col lg="6">
-        <img src="~/assets/cole.jpg" width="100%" />
+      <b-col class="photo-col" lg="6">
+        <img src="~/assets/georgia.jpg" width="100%" />
+        Georgia, A&R.
       </b-col>
     </b-row>
   </b-container>
@@ -26,9 +27,6 @@
 
 <script>
 export default {
-  components: {
-    // Nav
-  },
   data() {
     return { title: 'Dust, Etc.' }
   }
@@ -44,6 +42,11 @@ export default {
   margin-top: 3em;
   text-align: center;
   font-size: 17px;
+}
+
+.photo-col {
+  /* text-align: center; */
+  font-size: 0.93em;
 }
 
 @media only screen and (max-width: 992px) {
