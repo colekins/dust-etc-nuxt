@@ -9,7 +9,7 @@
         />
         <p>
           Dust, Etc. is a tiny record label in Portland, ME.<br />
-          Dust, Etc. was founded in Boston by Cole Kinsler in 2015. <br />
+          Dust, Etc. was founded by Cole Kinsler in 2015. <br />
           <a href="mailto:dustetc@gmail.com?Subject=Hi" target="_blank"
             >dustetc@gmail.com</a
           >
