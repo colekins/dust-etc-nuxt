@@ -110,6 +110,7 @@ export default {
 .merch-image {
   position: sticky;
   top: 88px;
+  margin-bottom: 1.5em;
 }
 
 .release-date {
