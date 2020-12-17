@@ -39,7 +39,7 @@ const data = {
         author: 'Justin Weber',
         link: [
           'Washington City Paper',
-          'https://www.washingtoncitypaper.com/arts/music/blog/21010437/kerem-atalays-summer-winter-reviewed'
+          'https://washingtoncitypaper.com/article/324407/kerem-atalays-summer-winter-reviewed/'
         ]
       },
       links: {
