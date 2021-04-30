@@ -20,7 +20,7 @@
         /></a> -->
         <a
           class="social"
-          href="https://www.instagram.com/spaaacemountain/"
+          href="https://www.instagram.com/spaacemountain/"
           target="_blank"
           ><img
             style="height: 29px;"
