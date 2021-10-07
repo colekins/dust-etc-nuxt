@@ -10,9 +10,9 @@
       <b-collapse id="nav-collapse" is-nav>
         <!-- Right aligned nav items -->
         <b-navbar-nav class="ml-auto">
-          <b-nav-item>
+          <!-- <b-nav-item>
             <n-link class="nav-link" to="/news">News</n-link>
-          </b-nav-item>
+          </b-nav-item> -->
           <b-nav-item>
             <n-link class="nav-link" to="/about">About</n-link>
           </b-nav-item>
