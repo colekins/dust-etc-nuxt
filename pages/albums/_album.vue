@@ -20,7 +20,7 @@
         </a>
       </b-col>
       <b-col md="6">
-        <blockquote class="quote-card">
+        <blockquote v-if="album.review.body" class="quote-card">
           <p>
             {{ album.review.body }}
           </p>

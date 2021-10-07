@@ -1,6 +1,33 @@
 const data = {
   albums: [
     {
+      title: 'celestial force',
+      artist: 'space mountain',
+      releaseDate: 'September 17, 2021',
+      embed:
+        '<iframe style="border: 0; width: 100%; height: 370px;" src="https://bandcamp.com/EmbeddedPlayer/album=2581252649/size=large/bgcol=ffffff/linkcol=0687f5/artwork=small/transparent=true/" seamless><a href="https://spacemountain.bandcamp.com/album/celestial-force">Celestial Force by Space Mountain</a></iframe>',
+      review: {
+        body: null,
+        author: null,
+        link: [
+          'Various Small Flames',
+          'https://varioussmallflames.co.uk/2019/01/10/space-mountain-cloud/'
+        ]
+      },
+      links: {
+        bandcamp: 'https://spacemountain.bandcamp.com/album/celestial-force',
+        spotify:
+          '<iframe class="spotify" src="https://open.spotify.com/follow/1/?uri=spotify:artist:1X9FdQzGc1UmGJNNLmOZf8&size=basic&theme=light" width="100" height="25" scrolling="no" frameborder="0" style="border:none; overflow:hidden;" allowtransparency="true"></iframe>'
+      },
+      images: {
+        small: 'https://f4.bcbits.com/img/a3102467530_16.jpg',
+        tape: null,
+        cd: 'https://f4.bcbits.com/img/0025848693_16.jpg',
+        vinyl: null
+      }
+    },
+
+    {
       title: 'togetherness',
       artist: 'space mountain',
       releaseDate: 'March 8, 2019',
