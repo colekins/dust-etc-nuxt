@@ -9,8 +9,8 @@
         />
         <p>
           Dust, Etc. is a tiny record label in Portland, ME.<br />
-          <a href="mailto:dustetc@gmail.com?Subject=Hello" target="_blank"
-            >dustetc@gmail.com</a
+          <a href="mailto:dustetc@icloud.com?Subject=Hello" target="_blank"
+            >dustetc@icloud.com</a
           >
         </p>
         <p></p>
